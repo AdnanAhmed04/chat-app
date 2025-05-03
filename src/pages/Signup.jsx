@@ -24,7 +24,7 @@ const Signup = ({ switchPage, closeModal }) => {
     if (!validateForm()) return;
 
     console.log('Signup data:', form);
-    closeModal(); // Simulate signup success
+    closeModal(); 
   };
 
   return (

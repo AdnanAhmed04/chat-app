@@ -36,7 +36,7 @@ const Login = ({ switchPage, closeModal }) => {
     }
 
     console.log('Login data:', form);
-    closeModal(); // Simulate login success
+    closeModal(); 
   };
 
   return (
